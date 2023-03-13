@@ -1,0 +1,15 @@
+.babelrc
+.eslintrc.js
+tsconfig.json
+server.js
+node_modules/
+test/
+.next/
+.vscode/
+public/
+server.js
+.github/
+next.config.js
+stores/
+jest.config.js
+jest.setup.js
