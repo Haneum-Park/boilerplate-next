@@ -6,13 +6,9 @@ import { validateToken } from '@util/token.util';
 import { cookies, isProduction } from '@util/common.util';
 
 const requireApiList = [
-  { method: 'get', url: 'instance' },
-  { method: 'get', url: 'crawler' },
-  { method: 'post', url: 'crawler' },
-  { method: 'post', url: 'crawler/run' },
 ];
 
-export const baseUrl = isProduction ? 'https://monit-api.metu.ai/' : 'http://localhost:3333/';
+export const baseUrl = isProduction ? 'https://day-off.xyz/' : 'http://localhost:3000/';
 
 const $axios = axios.create({
   baseURL: baseUrl,
